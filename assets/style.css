@@ -67,9 +67,8 @@
   .about{
   margin: 30px auto;
   padding-bottom: 10px;
-  width: 90%;
+  width: 92%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
  .about h2{
@@ -77,7 +76,6 @@
     color: #024e76;
     padding: 0 20px 140px 0px;
     border-right: 4px solid;
-    width: 20%;
     height: 100%;
     text-align: right;
     float: left;
@@ -86,14 +84,17 @@
     padding: 0px 70px 10px 40px;
     line-height: 1.7;
     color: #3e757e;
-    width: 70%;
+    width: 100%;
     font-size: 17px;
-    flex: 3 70%;
+    flex: 1 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
   }
-
+.work{
+    display: flex;
+    width: 92%;
+}
   .parent{
     margin: 30px auto;
     padding-bottom: 10px;
@@ -102,10 +103,10 @@
     flex-wrap: wrap;
   }
   .work h2 {
-    margin-left: 20px;
+    margin-left: 100px;
     font-size: 55px;
     color: #024e76;
-    padding: 0 20px 800px 0px;
+    padding: 0 20px 850px 0px;
     border-right: 4px solid;
     height: 100%;
     text-align: right;
@@ -334,11 +335,11 @@ font-size: 12px;
 
 
 .contact{
-    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     margin: 30px auto;
     padding-bottom: 10px;
+    width: 97%;
 } 
 .contact h2{
     font-size: 55px;
